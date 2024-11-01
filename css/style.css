@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Roboto' sans-serif;body {
+    background-image: url('../images/background.jpg'); /* Ajustez le chemin si nécessaire */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: ;
+    padding: 0;
+}
+
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+.card-Pink {
+    background-color: seagreen;
+    padding: 30px; /* Ajustez pour l'espacement souhaité autour du texte */
+    display: inline-block; /* Pour ajuster la largeur du fond à celle du texte */
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+.card-olive, .card-black, .card-orange{
+    background-color: seagreen;
+    padding: 0px; /* Ajustez pour l'espacement souhaité autour du texte */
+    display: inline-block; /* Pour ajuster la largeur du fond à celle du texte */
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+	flex-wrap: wrap
+  }
+body {
+    background-image: url('../images/background.jpg'); /* Ajustez le chemin si nécessaire */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0px;
+}
+
+.card-Pink {
+	background-color: seagreen; /* Couleur de fond pour chaque cadre */
+    padding: 30px; /* Ajustez l'espace interne */
+    margin: 10px 100px; /* Ajoute un espace entre chaque cadre verticalement */
+    border-radius: 15px; /* Arrondit les coins */
+    display: flex;
+	flex-wrap: wrap
+   
+}
+
+.card-olive, .avatar, .button {
+    background-color: seagreen; /* Couleur de fond pour chaque cadre */
+    padding: 0px; /* Ajustez l'espace interne */
+    margin: 20px 370px; /* Ajoute un espace entre chaque cadre verticalement */
+    border-radius: 15px; /* Arrondit les coins */
+   box-shadow: 0px 10px 30px black;
+   display: flex;
+	flex-wrap: wrap
+}
+
+.card-black {
+	   background-color: green; /* Couleur de fond pour chaque cadre */
+    padding: 0px; /* Ajustez l'espace interne */
+    margin: 20px 370px; /* Ajoute un espace entre chaque cadre verticalement */
+    border-radius: 15px; /* Arrondit les coins */
+    box-shadow: 0px 10px 30px black;
+    display: flex;
+	flex-wrap: wrap
+
+}
+.card-orange {
+	   background-color: darkgreen; /* Couleur de fond pour chaque cadre */
+    padding: 0px; /* Ajustez l'espace interne */
+    margin: 20px 370px; /* Ajoute un espace entre chaque cadre verticalement */
+    border-radius: 15px; /* Arrondit les coins */
+    box-shadow: 0px 10px 30px black;
+    display: flex;
+	flex-wrap: wrap
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne quand l'espace est insuffisant */
+}
+

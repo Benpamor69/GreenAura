@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>GreenAura</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+ <body>
+   
+ <div class="container">
+    <div class="card-Pink">
+        <h1>Transform your space</h1>
+        <h2>"GreenAura provides personal capsules that adapt to enhance relaxation, focus, and well-being anywhere."</h2>
+        <a href="#" class="btn-green">start now</a>
+    </div>
+ </div>
+<div class="cards">
+   <div class="card-olive">
+       <div class="container">
+      <h2>Choose product</h2>
+     	<img src="images/capsules.jpg" alt="GreenAura product" width="200" height="auto">
+     	 <h3>GreenAura </h3>
+       </div>
+   </div> 
+
+   <div class="card-black">
+       <div class="container">
+      <h2>Choose product</h2>
+      <img src="images/product,2.jpg" alt="GreenAura product" width="200" height="auto">
+       <h3>GreenAura </h3>
+       </div>
+   </div> 
+   <div class="card-orange">
+       <div class="container">
+      <h2>Choose product</h2>
+      <img src="images/Product,3.jpg" alt="GreenAura product" width="200" height="auto">
+       <h3>GreenAura </h3>
+       </div>
+   </div> 
+</div>
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Informations Personnelles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Vos Informations Personnelles</h1>
+    
+    <form id="personalInfoForm" novalidate>
+        <div class="input-group">
+            <label for="firstName">Prénom</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Entrez votre prénom" required>
+            <span class="error-message" id="firstNameError"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="lastName">Nom</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Entrez votre nom" required>
+            <span class="error-message" id="lastNameError"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Adresse e-mail</label>
+            <input type="email" id="email" name="email" placeholder="exemple@domaine.com" required>
+            <span class="error-message" id="emailError"></span>
+        </div>
+
+        <div class="input-group">
+            <label for="phone">Numéro de téléphone</label>
+            <input type="tel" id="phone" name="phone" placeholder="06 12 34 56 78" required pattern="[0-9]{10}">
+            <span class="error-message" id="phoneError"></span>
+        </div>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <p class="success-message" id="successMessage"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Système de Notation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Donnez votre avis</h1>
+
+    <form id="ratingForm" novalidate>
+        <div class="rating">
+            <span data-value="5" class="star">&#9733;</span>
+            <span data-value="4" class="star">&#9733;</span>
+            <span data-value="3" class="star">&#9733;</span>
+            <span data-value="2" class="star">&#9733;</span>
+            <span data-value="1" class="star">&#9733;</span>
+        </div>
+        <input type="hidden" id="ratingValue" name="ratingValue" required>
+        <span class="error-message" id="ratingError"></span>
+
+        <div class="input-group">
+            <label for="comment">Votre commentaire (optionnel)</label>
+            <textarea id="comment" name="comment" placeholder="Ajoutez un commentaire..."></textarea>
+        </div>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <p class="success-message" id="successMessage"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
